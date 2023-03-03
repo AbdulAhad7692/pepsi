@@ -1,0 +1,227 @@
+.navigation {
+    background-color: #0065c3;
+    height: 100px;
+    width: 100%;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img {
+    height: 70px;
+    margin-top: 15px;
+}
+
+.nav-text {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 35px;
+    transition: all .3s ease;
+}
+
+.nav-text:hover {
+    color: rgb(251, 255, 0);
+}
+
+.nav-btn {
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    margin-top: 30px;
+    transition: all .5s ease;
+}
+
+.nav-btn>p {
+    color: #0065c3;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 20px;
+    transition: all .5s ease;
+}
+
+.nav-btn:hover {
+    border-color: #ffffff;
+    background-color: #0065c3;
+}
+
+.nav-btn>:hover {
+    color: white;
+}
+
+.bg-img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.bg-img2 {
+    margin-top: 0%;
+    width: 100%;
+    padding: 0%;
+}
+
+.bg-down {
+    background-color: #0065c3;
+    height: 600px;
+    background-image: url(bedit.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.card {
+    background-color: #0065c3;
+    width: 430px;
+    height: 270px;
+    /* margin-top: 20px; */
+    margin-left: 5%;
+}
+
+.card>p {
+    color: white;
+    font-size: 20px;
+    margin-top: 2px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.blue {
+    background-color: #004d96;
+    height: 600px;
+    width: 480px;
+}
+
+.bg-can {
+    background-color: #004d96;
+    background-image: url(div2im_files/bg-2-desktop@2x.png);
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    display: flex;
+}
+
+.display {
+    display: block;
+}
+
+.im {
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.can {
+    background-color: #0065c3;
+    height: 550px;
+}
+
+.im-can {
+    margin-bottom: 100px;
+}
+
+.three-can {
+    background-color: #0065c3;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.three-can>p {
+    color: white;
+    font-size: 20px;
+    width: 400px;
+    margin-left: 10%;
+}
+
+.three-can-text {
+    width: 300px;
+    height: 200px;
+    margin-left: 10%;
+    color: white;
+    margin-top: 0%;
+    padding-top: 50px;
+}
+
+.texxt {
+    font-size: 50px;
+    color: white;
+    line-height: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cans {
+    margin-top: 100px;
+}
+
+.footer {
+    color: #0065c3;
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.im-footer {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    transition: all .4s ease;
+}
+
+.hover {
+    transition: all .7s ease;
+}
+
+.hover:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.end {
+    background-color: #0065c3;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.end1 {
+    margin-top: 30px;
+}
+
+.end1>p {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    transition: all .4s ease;
+    line-height: 20px;
+}
+
+.end1>p:hover {
+    color: #fbff00;
+}
+
+.btn2 {
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+    height: 30px;
+    width: 400px;
+    margin-top: 30px;
+    transition: all .5s ease;
+}
+
+.btn2>p {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 20px;
+    transition: all .5s ease;
+}
+.btn2:hover {
+    border-color: #ffffff;
+    background-color: #0065c3;
+}
+.display2{
+    display: none;
+}
